@@ -31,5 +31,10 @@ nav {
     font-size: 24px;
     color: antiquewhite;
     padding: 20px;
-    
+}
+
+.headerbar a:hover {
+    text-shadow: 0 0 10px #FFFFFF;
+    color: white;
+
 }
