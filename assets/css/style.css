@@ -1,18 +1,22 @@
+* {
+    color: antiquewhite;
+
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
-top {
-    display: flex;
+.top {
+    background-color: #1f2937;
 
 }
 
 header {
-    background-color: #1f2937;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-right: 50px;
    
 }
 
@@ -20,21 +24,29 @@ nav {
     display: flex;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .headerbar a {
     text-decoration: none;
     font-size: 24px;
     color: antiquewhite;
-    padding: 20px;
+    padding: 5px;
 }
 
 .headerbar a:hover {
     text-shadow: 0 0 10px #FFFFFF;
     color: white;
 
+}
+
+.name {
+    color: antiquewhite;
+    font-size: 24px;
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+main {
+    display: flex;
+    align-items: center;
 }
