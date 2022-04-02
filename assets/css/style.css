@@ -1,20 +1,18 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    
+* {
+    box-sizing: border-box;
 }
 
+body {
+    border-top: 5px;
+}
 
-header {
+.headerbar {
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
     background-color: #1f2937;
     color: antiquewhite
    
-}
-
-nav {
-    display: flex;
 }
 
 .headerbar a {
@@ -39,7 +37,45 @@ nav {
     
 }
 
-main {
+section {
     display: flex;
     align-items: center;
+    margin: 50px 50px 0px 50px;
+    
+}
+
+
+.hero-right img{
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+
+main {
+    display: inline-block
+    
+    
+}
+
+main img {
+    width:auto;
+    height: 300px;
+    padding: 24px;
+    
 }
