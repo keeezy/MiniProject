@@ -7,14 +7,14 @@
     justify-content: space-between;
     padding-right: 50px;
     background-color: #1f2937;
-    color: antiquewhite
+    color: whitesmoke
    
 }
 
 .headerbar a {
     text-decoration: none;
     font-size: 24px;
-    color: antiquewhite;
+    color: whitesmoke;
     padding: 5px;
 }
 
@@ -37,24 +37,36 @@ section {
     display: flex;
     align-items: center;
     margin: 50px 50px 0px 50px;
-    
+    padding: 60px;
+    border-bottom-style: solid;
+    border-radius: 0px 0px 60px 60px ;
 }
 
 .hero-right {
     position: relative;
 }
 
-.hero-right:hover .overlay {
+.hero-right:hover .overlay-selfie {
+    opacity: 1;
+}
+
+main :hover .overlay-1 {
+    opacity: 1;
+}
+main :hover .overlay-2 {
+    opacity: 1;
+}
+main :hover .overlay-3 {
     opacity: 1;
 }
 
 
 
-.overlay {
+.overlay-selfie {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     transition: .5s ease;
@@ -63,7 +75,6 @@ section {
     font-size: 20px;
     padding: 20px;
     text-align: center;
-    border: radius 50px; ;
 }
 
 
@@ -91,18 +102,20 @@ h1 {
 
 main {
     display: flex;
-    
+    padding: 60px;
     
 }
 
 main h2 {
     text-align: center;
-    
+    display: none;
 }
+
+
 
 main img {
     width:auto;
-    height: 300px;
+    height: 350px;
     padding: 24px;
     
 }
@@ -110,4 +123,47 @@ main img {
 main a {
     display: flex;
     flex-direction: column-reverse;
+}
+
+.overlay-1,
+.overlay-2,
+.overlay-3 {
+    position: absolute;
+    bottom: 1;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: auto;
+    border-radius: 20px;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 34px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.footer-container {
+    margin-top: 60px;
+    background-color: #1f2937;
+    text-align: center;
+
+}
+
+footer h2 {
+    color: whitesmoke;
+    font-size: larger;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-size: 24px;
+    color: whitesmoke;
+    padding: 5px;
+}
+
+.contact-info a:hover {
+    text-shadow: 0 0 10px #FFFFFF;
+    color: white;
+
 }
